@@ -1,16 +1,16 @@
-title:            Blog Title
-description:      Describe your website here.
+title:            LinuxLucy
+description:      Lucy is a software engineer. She's passionate about python, does devops, advocates agile ways of working, and of course, loves Linux.
 
 # put your disqus here
-disqus_shortname:
+disqus_shortname: linuxlucy-dev
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
-logo:             images/logo.png # logo visible in the topbar
+logo:             images/avatar.jpg # logo visible in the topbar
 excerpt_separator: <!--more-->
 # Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
 # When testing locally leave blank or use http://localhost:4000
 
-url: http://aronbordin.com/neo-hpstr-jekyll-theme
+url: https://linuxlucy.dev
 
 # draw your top menu here
 # each item must have a title and a url.
@@ -20,34 +20,24 @@ url: http://aronbordin.com/neo-hpstr-jekyll-theme
 menu:
   - title: 'Home'
     url: '/'
-  - title: 'Fork'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme'
-  - title: 'Install'
-    url: 'http://github.com/aron-bordin/neo-hpstr-jekyll-theme#installation'
-  - title: 'Tags'
-    url: '/tags'
-  - title: 'Categories'
-    url: '/categories'
-    type: 'categories'
-  - title: 'Favorites'
-    url: '#'
-    submenu:
-      - title: 'Code Highlighter'
-        url: '/intro/code-highlighting-post/'
-      - title: 'Sample Post'
-        url: '/intro/sample-post/'
+  - title: 'About'
+    url: '/about'
+  - title: 'Posts'
+    url: '/posts'
+    #  - title: 'Tags'
+    #    url: '/tags'
 
 # Owner/author information
 owner:
-  name:           Your name
-  site:           http://aronbordin.com
+  name:           Lucy B
+  site:           https://linuxlucy.dev
   avatar:         images/avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
-  email:          you@email.com
+  bio:            "Lucy is a software engineer. She's passionate about python, does devops, advocates agile ways of working, and of course, loves Linux."
+  email:          hello@linuxlucy.dev
   # Twitter nick for use in Twitter cards and follow button.
-  twitter: aron_bordin # if no twitter in this config, the twitter follow button will be removed
+  twitter: linuxlucy
   # GitHub nick for use in follow button in author block.
-  github: aron-bordin
+  github: lucyb
 
 # Twitter account associated with the site if different from owner/author twitter account.
 # Used in Twitter cards.
@@ -55,25 +45,25 @@ twitter:
 
 # Social networking links used in author block underneath posts. Update and remove as you like.
 social:
+  - title: "twitter"
+    url: "https://twitter.com/linuxlucy"
   - title: "github"
-    url: "https://github.com/aron-bordin"
+    url: "https://github.com/lucyb"
   - title: "linkedin"
-    url: "https://br.linkedin.com/in/aronbordin"
-  - title: "youtube"
-    url: "https://www.youtube.com/channel/UCfnSek-9HPWOx5e2pH7VFgg"
+    url: "https://www.linkedin.com/in/lucy-bridges-41693614/"
 
 # Background image to be tiled on all pages
 background:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:
+google_analytics: UA-144916024-1
 google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
-locale:      en_US
+timezone:    Europe/London
+locale:      en_GB
 future:      true
 highlighter: rouge
 markdown:    kramdown
@@ -88,7 +78,7 @@ permalink:   /:categories/:title/
 paginate: 5
 
 # if true, shows the floatting share buttons
-float_share: true
+float_share: false
 
 # Octopress
 # Default extensions
@@ -102,5 +92,5 @@ titlecase: true
 
 include: [".htaccess"]
 exclude: ["demo/*", "lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
-gems: [jekyll-paginate]
+plugins: [jekyll-paginate]
 theme: neo-hpstr-jekyll-theme

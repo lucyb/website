@@ -40,4 +40,6 @@ Further reading:
 * [https://www.psychologytoday.com/us/blog/real-women/201809/the-reality-imposter-syndrome](https://www.psychologytoday.com/us/blog/real-women/201809/the-reality-imposter-syndrome)
 * [https://blog.bethcodes.com/confidence-through-feedback](https://blog.bethcodes.com/confidence-through-feedback)
 * [https://qz.com/work/1286549/imposter-syndrome-lets-toxic-work-culture-off-the-hook/](https://qz.com/work/1286549/imposter-syndrome-lets-toxic-work-culture-off-the-hook/)
+* [https://www.theguardian.com/commentisfree/2019/oct/16/impostor-syndrome-class-unfairness](https://www.theguardian.com/commentisfree/2019/oct/16/impostor-syndrome-class-unfairness) (Added 29/11/2020)
+* [https://modelviewculture.com/pieces/how-the-rhetoric-of-imposter-syndrome-is-used-to-gaslight-women-in-tech](https://modelviewculture.com/pieces/how-the-rhetoric-of-imposter-syndrome-is-used-to-gaslight-women-in-tech) (Added 29/11/2020)
 

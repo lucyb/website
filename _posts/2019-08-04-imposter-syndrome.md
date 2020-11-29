@@ -4,8 +4,6 @@ title:  "Imposter syndrome is a team problem"
 date:   2019-08-04 11:50:20 +0100
 categories: post
 excerpt_separator: <!-- more -->
-image:
-    feature: puffin-2.jpeg
 ---
 
 There is a common misconception that imposter syndrome is simply a lack of
